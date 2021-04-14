@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Fleuron';
+	font-weight: normal;
+	font-display: block;
+	src: url('/static/fonts/fleuronregular.woff2');
+}
+
+* {
+	box-sizing: border-box;
+	font-weight: 400;
+	margin: 0;
+}
+
+:root {
+	--fleuron: 'Fleuron', helvetica, arial, sans-serif;
+	--times: 'Times New Roman', Times, serif;
+	--white: #ffffff;
+	--offWhite: #eeeeee;
+	--offWhiteHover: #cacaca;
+	--grey: #4a4a4a;
+	--offBlack: #212121;
+}
+
+body {
+	line-height: 1.2;
+	color: var(--white);
+	background-color: var(--offBlack);
+	text-size-adjust: 100%;
+	font-family: var(--fleuron);
+	font-size: 4rem;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+@media (max-width: 1000px), (max-height: 750px) {
+	main * {
+		display: none;
+	}
+
+    main::after {
+        content: "these slides are only designed for larger screens. sorry!";
+        text-align: center;
+    }
+}
