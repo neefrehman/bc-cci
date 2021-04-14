@@ -1,12 +1,18 @@
 <script>
 	export let onClick;
+	export let next;
 </script>
 
 <!-- svelte-ignore a11y-missing-content a11y-missing-attribute -->
-<a sveltekit:prefetch on:click={onClick}><p>NEXT</p></a>
+<a style={`${next ? 'right' : 'left'}: 0`} sveltekit:prefetch on:click={onClick}>
+	<p style={`transform: rotate(${90 * (next ? 1 : -1)}deg);`}>
+		{next ? 'NEXT' : 'PREV'}
+	</p>
+</a>
 
 <style>
-	a, a:visited {
+	a,
+	a:visited {
 		cursor: pointer;
 		position: fixed;
 		top: 0;
