@@ -15,10 +15,10 @@
 
 	export let startingSlide;
 	const currentSlide = writable(startingSlide);
-	let Slide;
+	let SlideComponent;
 
 	currentSlide.subscribe(async (slide) => {
-		Slide = (await import(`../slides/${slide}.svelte`)).default;
+		SlideComponent = (await import(`../slides/${slide}.svelte`)).default;
 		window.history.pushState({}, null, slide);
 	});
 
@@ -32,5 +32,5 @@
 </script>
 
 <NavLink next={false} onClick={previousSlide} />
-<svelte:component this={Slide} />
+<svelte:component this={SlideComponent} />
 <NavLink next={true} onClick={advanceSlide} />

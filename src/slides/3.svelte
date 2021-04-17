@@ -7,7 +7,7 @@
 	<iframe
 		frameborder="0"
 		title="manyworlds"
-		src="https://manyworlds.neef.co/?no-ui&world=b3841c1c281ce3781cfd3378&pixelation=1.25"
+		src="https://manyworlds.neef.co/?no-ui&world=b3841c1c281ce3781cfd3378"
 	/>
 
 	<div>
@@ -17,7 +17,10 @@
 
 	<Notes>
 		<p>These days this is usually what I call myself.</p>
-		<p>It's about the least specific term possible, but right now I feel it suits the kind of stuff I do quite well</p>
+		<p>
+			It's about the least specific term possible, but right now I feel it suits the
+			kind of stuff I do quite well
+		</p>
 	</Notes>
 </Slide>
 
