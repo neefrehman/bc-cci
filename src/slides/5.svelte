@@ -10,6 +10,11 @@
 	<IFrame src="https://www.ustwo.com/" />
 
 	<Notes>
-		<p>This is where I work.</p>
+		<p>This is where I work now.</p>
+		<p>
+			ustwo is a digital product studio, meaning that we research, design, and build
+			products for clients. You can see the types of things we work on here, but I'll
+			go into some more detail a bit later too.
+		</p>
 	</Notes>
 </Slide>

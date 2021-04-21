@@ -34,7 +34,7 @@
 		<p>
 			Just over four years ago I got in touch with ustwo, and spoke to Mills (one of
 			the founders). This was at a time where ustwo was launching their "Adventure"
-			arm, where they invest, ran a community workspace (where I met Alex).
+			arm, where they invested in new creative ideas, and ran a community workspace.
 		</p>
 	</Notes>
 </Slide>
