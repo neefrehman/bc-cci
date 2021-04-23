@@ -4,10 +4,8 @@
 	import Notes from '../components/Notes.svelte';
 </script>
 
-<!-- TODO: FIX IFRAME -->
-
 <Slide padding={1}>
-	<IFrame src="https://adventure.ustwo.com/" />
+	<IFrame src="https://6081ba136b22b10008db9c63--ustwoadventure.netlify.app/" />
 
 	<Notes>
 		<p>

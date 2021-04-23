@@ -4,13 +4,11 @@
 	import Notes from '../components/Notes.svelte';
 </script>
 
-<!-- TODO: FIX IFRAME -->
-
 <Slide padding={1}>
-	<IFrame src="https://www.ustwo.com/" />
+	<IFrame src="https://6081b825986d6d00072aa7b2--ustwocom.netlify.app/" />
 
 	<Notes>
-		<p>This is where I work now.</p>
+		<p>This is where I work now, as a web developer.</p>
 		<p>
 			ustwo is a digital product studio, meaning that we research, design, and build
 			products for clients. You can see the types of things we work on here, but I'll

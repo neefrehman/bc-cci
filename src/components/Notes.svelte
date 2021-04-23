@@ -1,11 +1,12 @@
 <script>
 	export let open = false;
+	export let color = "white";
 </script>
 
-<div class="wrapper" style={`transform: translateY(${open ? "1em" : "100%"})`}>
+<div class="wrapper" style={`transform: translateY(${open ? "1em" : "100%"});`}>
 	<p class="toggle" on:click={() => (open = !open)}>{open ? 'CLOSE' : 'NOTES'}</p>
 	{#if open}
-		<div class="notes">
+		<div class="notes" style={`color: ${color}`}>
 			<slot />
 		</div>
 	{/if}
@@ -26,6 +27,9 @@
 		align-items: center;
 		scrollbar-width: none;
 		-ms-overflow-style: none;
+
+
+		display: none;
 	}
 	.wrapper::-webkit-scrollbar {
 		width: 0px;

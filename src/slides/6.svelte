@@ -1,11 +1,13 @@
 <script>
 	import Slide from '../components/Slide.svelte';
 	import Notes from '../components/Notes.svelte';
+	import Image from '../components/Image.svelte';
 </script>
 
 <Slide padding={1}>
-	<!-- TODO: excalidraw -->
-	<Notes>
+	<Image src="images/6.png" />
+
+	<Notes color="red">
 		<p>But I arrived at my role as a technologist in quite a roundabout way.</p>
 		<p>
 			And this is one of the reasons Alex wanted me to speak to you all, as you're

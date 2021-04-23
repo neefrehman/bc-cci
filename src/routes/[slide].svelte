@@ -1,6 +1,6 @@
 <script context="module">
 	export const router = false;
-	const SLIDE_COUNT = 6;
+	const SLIDE_COUNT = 35;
 	export async function load({ page }) {
 		const startingSlide = parseInt(page.params.slide);
 		return startingSlide <= SLIDE_COUNT

@@ -7,7 +7,7 @@
 	<iframe
 		frameborder="0"
 		title="manyworlds"
-		src="https://manyworlds.neef.co/?no-ui&world=b3841c1c281ce3781cfd3378"
+		src="https://manyworlds.neef.co/?no-ui&world=b3841c1c281ce3781cfd3378&pixelation=1.2"
 	/>
 
 	<div>

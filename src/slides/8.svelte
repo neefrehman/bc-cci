@@ -14,7 +14,8 @@
 		<p>
 			It's also worth mentioning that my personal projects are just that. They are
 			things that I've found interesting or fun to do, but not client projects that
-			I've been asked to work on, so bear that in mind.
+			I've been asked to work on. As a result they are quite small, but hopefully
+			some of the thinking behind them and process will be interesting.
 		</p>
 	</Notes>
 </Slide>
