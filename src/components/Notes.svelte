@@ -27,9 +27,6 @@
 		align-items: center;
 		scrollbar-width: none;
 		-ms-overflow-style: none;
-
-
-		display: none;
 	}
 	.wrapper::-webkit-scrollbar {
 		width: 0px;
