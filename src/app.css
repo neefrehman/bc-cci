@@ -36,9 +36,9 @@ body {
 	overflow: hidden;
 }
 
-@media (max-width: 1000px), (max-height: 750px) {
+@media (max-width: 1000px), (max-height: 720px) {
 	main * {
-		display: none;
+		display: none !important;
 	}
 
     main::after {
