@@ -1,19 +1,15 @@
 <script context="module">
-	export const router = false;
-	const SLIDE_COUNT = 35;
-	export async function load({ page }) {
-		const startingSlide = parseInt(page.params.slide);
-		return startingSlide <= SLIDE_COUNT
-			? { props: { startingSlide } }
-			: { status: 302, redirect: '/1' };
-	}
+	export const ssr = false;
 </script>
 
 <script>
 	import { writable } from 'svelte/store';
 	import NavLink from '../components/NavLink.svelte';
 
-	export let startingSlide;
+	const slidePath = parseInt(window.location.pathname.split('/')[1]);
+	const SLIDE_COUNT = 35;
+
+	const startingSlide = slidePath > SLIDE_COUNT ? 1 : slidePath;
 	const currentSlide = writable(startingSlide);
 	let SlideComponent;
 
