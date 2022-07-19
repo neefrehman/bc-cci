@@ -1,12 +1,8 @@
-<script context="module">
-	export const ssr = false;
-</script>
-
 <script>
 	import { writable } from 'svelte/store';
 	import NavLink from '../components/NavLink.svelte';
 
-	const slidePath = parseInt(window.location.pathname.split('/')[1]);
+	const slidePath = parseInt(window?.location.pathname.split('/')[1]);
 	const SLIDE_COUNT = 35;
 
 	const startingSlide = slidePath > SLIDE_COUNT ? 1 : slidePath;
@@ -15,7 +11,7 @@
 
 	currentSlide.subscribe(async (slide) => {
 		SlideComponent = (await import(`../slides/${slide}.svelte`)).default;
-		window.history.pushState({}, null, slide);
+		window?.history.pushState({}, null, slide);
 	});
 
 	const advanceSlide = () => {

@@ -5,7 +5,7 @@
 </script>
 
 <Slide padding={1}>
-	<IFrame src="https://6081ba136b22b10008db9c63--ustwoadventure.netlify.app/" />
+	<IFrame src="http://6081ba136b22b10008db9c63--ustwoadventure.netlify.app/" />
 
 	<Notes>
 		<p>
