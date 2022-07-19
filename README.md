@@ -1,38 +1,29 @@
-# create-svelte
+# Baggage Collection
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+ Slides and notes for my talk at UAL's Creative Computing Institute.
 
-## Creating a project
+ To get started, fork and download this repo, then run:
 
-If you're seeing this, you've probably already done this step. Congrats!
+ ```bash
+ npm install && npm run dev -- --open
+ ```
 
-```bash
-# create a new project in the current directory
-npm init svelte
+ This should start a dev server and open the slides in your browser.
 
-# create a new project in my-app
-npm init svelte my-app
-```
+ >NOTE: These slides were designed to be shared from my screen over a video call, so I haven't spent any time getting them to work on smaller screens. Sorry :)
 
-## Developing
+ >NOTE 2: This project was made with `svelte@next` while it was in pre-release, so there are potentially some bugs (no breaking ones that i've seen so far, though you migth get a few warnings in the console).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+ ## Resources
 
-```bash
-npm run dev
+ Some of my favourite resources that I've learned a lot from:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+ -   [The Book of Shaders](https://thebookofshaders.com/)
+ -   [The Coding Train](https://www.youtube.com/user/shiffman)
+ -   [Sebastian Lague](https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ)
+ -   [Jamie Wong](http://jamie-wong.com/)
+ -   [Three.js Fundamentals](https://threejsfundamentals.org/)
+ -   [WebGL Fundamentals](https://webglfundamentals.org/) / [WebGL2 Fundamentals](https://webgl2fundamentals.org/)
+ -   [Inigo Quilez's blog](https://iquilezles.org/)
+ -   [Electric Square's Raymarching workshop](https://github.com/electricsquare/raymarching-workshop)
+ -   [Luigi De Rosa's list of case studies on WebGL and creative code](https://github.com/luruke/awesome-casestudy)
